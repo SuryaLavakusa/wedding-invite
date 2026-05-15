@@ -5,14 +5,15 @@
 }
 
 body{
-  font-family: Arial, sans-serif;
+  font-family:Arial;
   background:#fffaf5;
   color:#333;
 }
 
 .hero{
   height:100vh;
-  background:url('images/bg.jpg') center/cover;
+  background:url('https://images.unsplash.com/photo-1519741497674-611481863552')
+  center/cover;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -35,6 +36,16 @@ body{
   font-size:24px;
 }
 
+.btn{
+  display:inline-block;
+  margin-top:20px;
+  background:gold;
+  color:black;
+  padding:12px 25px;
+  text-decoration:none;
+  border-radius:30px;
+}
+
 .couple{
   display:flex;
   justify-content:center;
@@ -53,11 +64,6 @@ body{
   height:250px;
   object-fit:cover;
   border-radius:50%;
-  border:5px solid #d4af37;
-}
-
-.card h2{
-  margin-top:20px;
 }
 
 .heart{
@@ -67,7 +73,7 @@ body{
 .countdown-section{
   text-align:center;
   padding:80px 20px;
-  background:#f8f1e7;
+  background:#f5ede2;
 }
 
 #countdown{
@@ -86,7 +92,7 @@ body{
 }
 
 footer{
-  background:#111;
+  background:black;
   color:white;
   text-align:center;
   padding:40px;
