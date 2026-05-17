@@ -12,7 +12,7 @@ const rsvpSuccess = document.getElementById('rsvp-success');
 // Countdown Timer
 // ========================================
 function updateCountdown() {
-    const weddingDate = new Date('December 15, 2026 10:00:00').getTime();
+    const weddingDate = new Date('June 26, 2026 8:49:00').getTime();
     const now = new Date().getTime();
     const distance = weddingDate - now;
 
